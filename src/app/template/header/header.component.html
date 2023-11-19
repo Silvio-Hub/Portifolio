@@ -1,0 +1,26 @@
+<header>
+  <nav>
+    <div class="nav-menu">
+      <p class="nav-logo">&lt; {{ "msg.home.logo-name" | translate }} / &gt;</p>
+      <div class="">
+        <ul class="hover-nav">
+          <li>
+            <a (click)="scrollToSection('home')">{{ "msg.home.nav-bar.home" | translate }}</a>
+          </li>
+          <li>
+            <a (click)="scrollToSection('abbount')">{{ "msg.home.nav-bar.abount" | translate }}</a>
+          </li>
+          <li>
+            <a href="">{{ "msg.home.nav-bar.experience" | translate }}</a>
+          </li>
+          <li>
+            <a href="">{{ "msg.home.nav-bar.project" | translate }}</a>
+          </li>
+          <li>
+            <a href="">{{ "msg.home.nav-bar.contact" | translate }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

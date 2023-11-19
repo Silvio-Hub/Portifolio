@@ -1,0 +1,71 @@
+<div class="back" id="home">
+  <div class="grid grid-template-columns">
+    <div class="describe">
+      <div *ngIf="!knowMoreCliked">
+        <div class="describe-hello">
+          <p>
+            {{ 'msg.home.name' | translate }}
+          </p>
+        </div>
+
+        <div>
+          <p class="describe-name">Silvio Celso</p>
+        </div>
+        <div>
+          <p class="describe-im">Eu sou um <span class="describe-dev">Desenvolvedor</span> Front-end.</p>
+        </div>
+        <div class="describe-currently">
+          <p class="">Atualmente trabalhando como desenvolvedor front-end com a tecnologia</p>
+        </div>
+        <div class="describe-ntt">
+          <p class="">angular na empresa <span class="describe-dev">NTT DATA europe & latam</span></p>
+        </div>
+      </div>
+
+      <div class="know-more" *ngIf="knowMoreCliked">
+        <p>DESENVOLVEDOR FRONT-END (PLENO)</p>
+        <p>- Responsável pela análise e desenvolvimento de sistema em Angular;</p>
+        <p>- Colaborar com equipes interfuncionais para definir, criar e entregar recursos web em Angular (12+).</p>
+        <p>- Testar, solucionar erros e bugs do código para otimizar a performance;</p>
+        <p>- Configurar, buildar e deployar a aplicação nos ambientes;</p>
+        <p>- Conhecimento de Testes Unitários com Karma/Jasmine;</p>
+        <p>- Acompanhar implantação em produção;</p>
+        <p>- Ciclos de vida do angular. Carregamento lazy-load de módulos e páginas. Libs com componentes reutilizáveis. Compartilhamento de informações entre componentes. </p>
+        <p>- Bootstrap, JavaScript/TypeScript, HTML, CSS, Testes unitários, JIRA, CONFLUENCE, boas práticas;</p>
+        <p>- Atuação nos Projetos Santander: IBPJ e CANAIS PJ.</p>
+      </div>
+
+      <div class="describe-button" (click)="knowMore()">
+        <a>{{ textoBotao }}</a>
+      </div>
+    </div>
+    <div class="image" *ngIf="!knowMoreCliked">
+      <img src="../../../assets/my-img.png" alt="">
+    </div>
+    <div class="image" *ngIf="knowMoreCliked">
+      <img src="../../../assets/note.png" alt="">
+    </div>
+  </div>
+  <div class="grid-2 grid-template-columns-2">
+    <div class="card1">
+      <div class="hover-content">
+        <h2>Objetivo</h2>
+        <p>
+          Busco aprimorar minhas habilidades em desenvolvimento front-end, especializando-me em frameworks modernos para criar experiências de usuário inovadoras.
+        </p>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="hover-content">
+        <h2>Aspiração</h2>
+        <p>Minha aspiração é garantir que cada projeto em que eu esteja envolvido não apenas atenda aos requisitos, mas também se destaque pela qualidade, usabilidade e experiência do usuário</p>
+      </div>
+    </div>
+    <div class="card3">
+      <div class="hover-content">
+        <h2>Filosofia</h2>
+        <p>Acredito na importância da simplicidade e legibilidade no código. Cada linha de código deve ser clara e compreensível, não apenas para mim, mas para toda a equipe.</p>
+      </div>
+    </div>
+  </div>
+</div>
