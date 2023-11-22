@@ -2,15 +2,47 @@
   background: #232323;
 }
 
-.image {
-  margin-left: 320px;
-    margin-right: 320px;
-  img {
-    margin-top: 10rem;
-    height: 300px;
-    width: 240px;
+.container {
+  display: flex;
+  align-items: start;
+
+  .image {
+    margin-left: 16rem;
+      // margin-right: 320px;
+    img {
+      margin-top: 22rem;
+      height: 300px;
+      width: 240px;
+      border-radius: 5px;
+    }
   }
-}
-.teste {
-  margin-top: 10rem;
+  
+  .img-border {
+    margin-left: 14rem;
+    margin-top: 20rem;
+    border-left: 7px solid #9400ff;
+    border-top: 7px solid #9400ff;
+    position: absolute;
+    box-sizing: border-box;
+    width: 7%;
+    height: 20%;
+  }
+
+  .description {
+    margin-left: 2rem;
+    margin-right: 14rem;
+    margin-top: 22rem;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 2rem;
+    .abbount {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .abbount-me {
+      font-size: 20px;
+      color: rgb(245, 170, 233);
+    }
+  }
 }

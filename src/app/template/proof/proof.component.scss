@@ -1,0 +1,108 @@
+ .back {
+    background: #232323;
+}
+
+.container {
+    margin-left: 14rem;
+    padding-top: 10rem;
+    
+    .content {
+        background: #202024;
+        // background: rgba(0, 0, 0, 0.5);
+        margin-right: 16rem;
+        padding: 2rem;
+        border-radius: 8px;
+    }
+
+    h2 {
+        color: white;
+        margin-top: 1rem;
+    }
+
+    .mi-experience{
+        color: rgb(245, 170, 233);
+    }
+    .company {
+        display: flex;
+        overflow: hidden;
+        width: 85%;
+        padding: 3rem;
+        
+        .comany-name{
+            color: white;
+            margin-top: 3rem;
+            margin-right: 3rem;
+        }
+        .vertical-line {
+            border-left: 1px solid #9400ff;
+        }
+        .company-description {
+            margin-left: 3rem;
+            color: white;
+            .dev-front {
+                font-size: 20px;
+            }
+            .month-enter {
+                font-size: 14px;
+                color: #ccc;
+            }
+            .description-activities {
+                margin-top: 1rem;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .card-colection {
+        margin-top: 5rem;
+
+        #cards1 {
+            margin-top: 2rem;
+        }
+        .tec-contact {
+            margin-top: 1rem;
+            color: #ccc;
+        }
+        .cards {
+            display: flex;
+            overflow: hidden;
+            justify-content: flex-start;
+            // border: 1px solid #9400ff;
+            padding: 0 0 2rem;
+            width: 84%;
+    
+            .card {
+                width: 20vw;
+                border: 1px solid #9400ff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // height: 50px;
+                height: 5vh;
+                border-radius: 5px;
+                margin-right: 3rem;
+                background: #000;
+                transition: border-color 0.5s ease;
+                p {
+                    color: #fff;
+                    font-size: 19px;
+                }
+                span {
+                    img {
+                        height: 20px;
+                        width: 20px;
+                        margin-right: 1rem;
+                    }
+                }
+                &:hover {
+                    border-color: rgb(245, 170, 233);
+                    color: #fff;
+                    background: rgba(0, 0, 0, 0.947);
+                }
+            }
+            #card1 {
+                margin: 0 !important;
+            }
+        }
+    }
+}

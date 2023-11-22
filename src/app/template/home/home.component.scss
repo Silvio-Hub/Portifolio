@@ -1,7 +1,3 @@
-* {
-  font-family: sans-serif;
-}
-
 .back {
   background: black;
 }
@@ -16,7 +12,7 @@
   .describe-hello {
     margin-top: 10rem;
     font-size: 1.2rem;
-    color: red;
+    color: #9400ff;
   }
   .describe-name {
     font-size: 3rem;
@@ -27,7 +23,7 @@
     font-size: 2rem;
   }
   .describe-dev {
-    color: red;
+    color: #9400ff;
   }
   .describe-currently {
     margin-top: 0.7rem;
@@ -62,12 +58,6 @@
 }
 
 .image {
-  // padding: 0 auto;
-  // padding: 20px;
-	// background: tomato;
-	// font-size: 1.5em;
-  // color: white;
-  // margin-right: 5rem;
   img {
     height: 750px;
     width: 730px;

@@ -9,6 +9,8 @@ import { AbbountComponent } from './template/abbount/abbount.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ProofComponent } from './template/proof/proof.component';
+import { MyProjectsComponent } from './template/my-projects/my-projects.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     HomeComponent,
     AbbountComponent,
+    ProofComponent,
+    MyProjectsComponent,
   ],
   imports: [
     BrowserModule,
