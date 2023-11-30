@@ -3,11 +3,6 @@
 }
 
 .describe {
-  // padding: 20px;
-	// margin: 5px;
-	// background: tomato;
-	// text-align: center;
-	// font-size: 1.5em;
   color: white;
   .describe-hello {
     margin-top: 10rem;
@@ -33,26 +28,67 @@
     margin-top: 0.3rem;
     font-size: 1.2rem;
   }
-  .describe-button {
-    padding: 1em;
+  // .describe-button {
+  //   padding: 1em;
+  //   margin-top: 5rem;
+  //   width: 20vh;
+  //   text-align: center;
+  //   border: 1px solid #9400ff;
+  //   cursor: pointer;
+  //   border-radius: 5px;
+  //   a {
+  //     color: white;
+  //     text-decoration: none;
+  //     font-size: 1.2rem;
+  //   }
+  //   .hover-content {
+  //     transition: height 0.50s ease;
+  //   }
+
+  //   &:hover {
+  //     background: #9400ff;
+  //     transition: all 0.5s ease-in-out;
+  //   }
+  // }
+  .social-media {
+    display: flex;
     margin-top: 5rem;
     width: 20vh;
-    text-align: center;
-    border: 1px solid #9400ff;
-    cursor: pointer;
-    border-radius: 5px;
-    a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-    }
-    .hover-content {
-      transition: height 0.50s ease;
-    }
-
-    &:hover {
-      background: #9400ff;
-      transition: all 0.5s ease-in-out;
+    .social-media-icon {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      cursor: pointer;
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
+      a {
+        &:hover {
+          -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+          @-webkit-keyframes rotate-hor-center {
+            0% {
+              -webkit-transform: rotateX(0);
+                      transform: rotateX(0);
+            }
+            100% {
+              -webkit-transform: rotateX(-360deg);
+                      transform: rotateX(-360deg);
+            }
+          }
+          @keyframes rotate-hor-center {
+            0% {
+              -webkit-transform: rotateX(0);
+                      transform: rotateX(0);
+            }
+            100% {
+              -webkit-transform: rotateX(-360deg);
+                      transform: rotateX(-360deg);
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -171,4 +207,3 @@
     margin-bottom: 0.5rem;
   }
 }
-

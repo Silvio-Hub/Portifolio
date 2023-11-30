@@ -22,14 +22,21 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  knowMore() {
-    this.knowMoreCliked = !this.knowMoreCliked;
+  // knowMore() {
+  //   this.knowMoreCliked = !this.knowMoreCliked;
 
-    if(this.knowMoreCliked) {
-      this.textoBotao = "Perfil"
-    } else {
-      this.textoBotao = "Saiba Mais"
-    }
+  //   if(this.knowMoreCliked) {
+  //     this.textoBotao = "Perfil"
+  //   } else {
+  //     this.textoBotao = "Saiba Mais"
+  //   }
+  // }
+
+  openWhatsApp() {
+    const phoneNumber = this.tranlateService.instant('msg.what-app.number');
+    const message = this.tranlateService.instant('msg.what-app.message');
+    const urlWhatsApp = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    window.open(urlWhatsApp, '_blank');
   }
 
 }

@@ -1,6 +1,8 @@
 export class TranslateMsgs {
   static mensagens = {
 
+    "btn.abbount": "Saiba mais",
+
     "msg.home.nav-bar.home": "Home",
     "msg.home.nav-bar.abount": "Sobre",
     "msg.home.nav-bar.experience": "Experiência",
@@ -8,6 +10,63 @@ export class TranslateMsgs {
     "msg.home.nav-bar.contact": "Contato",
 
     "msg.home.name": "Olá, o meu nome é",
-    "msg.home.logo-name": "silvioCelso"
+    "msg.home.logo-name": "silvioCelso",
+    "msg.home.my-name": "Silvio Celso",
+    "msg.home.i-am": "Eu sou um",
+    "msg.home.dev": "Desenvolvedor",
+    "msg.home.front-end": "Front-end.",
+    "msg.home.working": "Atualmente trabalhando como desenvolvedor front-end com a tecnologia",
+    "msg.home.company": "angular na empresa",
+    "msg.home.company-name": "NTT DATA europe & latam",
+    "msg.home.objective": "Objetivo",
+    "msg.home.objective-description": "Busco aprimorar minhas habilidades em desenvolvimento front-end, especializando-me em frameworks modernos para criar experiências de usuário inovadoras.",
+    "msg.home.aspiration": "Aspiração",
+    "msg.home.aspiration-description": "Minha aspiração é garantir que cada projeto em que eu esteja envolvido não apenas atenda aos requisitos, mas também se destaque pela qualidade, usabilidade e experiência do usuário.",
+    "msg.home.philosophy": "Filosofia",
+    "msg.home.philosophy-description": "Acredito na importância da simplicidade e legibilidade no código. Cada linha de código deve ser clara e compreensível, não apenas para mim, mas para toda a equipe.",
+
+    "msg.abbount.abbount-me": "Um pouco sobre mim",
+    "msg.abbount.abbount": "Sobre",
+    "msg.abbount.abbount-description": "Desenvolvedor front-end com mais de 2 anos de experiencia em criar interfaces web, estudante de sistema de informação, solido conhecimento em Angular, além de uma boa base em HTML, CSS e TypeScript com histórico comprovado em entregas de valor. Ao longa da minha carreira como desenvolvedor trabalhei em ótimas equipes, contribui para o sucesso de projetos desafiadores, focando no prazo e na qualidade da entrega assim conseguindo bons feedbacks. Busco continuamente aprimorar minhas habilidades e aplicar o meu conhecimento para impulsionar o desenvolvimento front-end.",
+
+    "msg.proof.my-experiences": "Minhas experiências",
+    "msg.proof.places-where-worked": "Lugares onde trabalhei",
+    "msg.proof.company-name": "NTT DATA Europe & Latam",
+    "msg.proof.dev": "DESENVOLVEDOR FRONT-END",
+    "msg.proof.date": "Março 2021 - Presente",
+    "msg.proof.description-p1": "Responsável pela análise e desenvolvimento de sistema em Angular.",
+    "msg.proof.description-p2": "Colaborar com equipes interfuncionais para definir, criar e entregar recursos web em Angular (12+).",
+    "msg.proof.description-p3": "Testar, solucionar erros e bugs do código para otimizar a performance.",
+    "msg.proof.description-p4": "Configurar, buildar e deployar a aplicação nos ambientes.",
+    "msg.proof.description-p5": "Bootstrap, JavaScript/TypeScript, HTML, CSS, Testes unitários, JIRA, CONFLUENCE, boas práticas.",
+    "msg.proof.languages": "Linguagens e tecnologias",
+    "msg.proof.languages-contact": "Aqui estão as linguagens e tecnologias que eu tenho contato",
+    "msg.proof.html": "HTML",
+    "msg.proof.css": "CSS",
+    "msg.proof.js": "JavaScript",
+    "msg.proof.ts": "TypeScript",
+    "msg.proof.angular": "Angular",
+    "msg.proof.jira": "Jira",
+    "msg.proof.confluence": "Confluence",
+    "msg.proof.bootstrap": "Bootstrap",
+    "msg.proof.git": "Git",
+    "msg.proof.git-hub": "GitHub",
+    "msg.proof.tootipe-html": "HTML (Hypertext Markup Language) é a linguagem fundamental para criação de páginas web, utilizando tags para estruturar e formatar o conteúdo, enquanto atributos adicionam funcionalidades e estilos.",
+    "msg.proof.tootipe-css": "CSS (Cascading Style Sheets) é uma linguagem de estilo que controla o layout e a aparência visual de páginas web, permitindo a personalização de cores, fontes, espaçamentos e posicionamentos. Utilizando seletores e propriedades, o CSS separa o design do conteúdo HTML..",
+    "msg.proof.tootipe-js": "JavaScript (JS) é uma linguagem de programação amplamente utilizada para tornar as páginas web interativas e dinâmicas, permitindo manipulação do conteúdo em tempo real e interação com o usuário. Como uma linguagem de script do lado do cliente, o JS é essencial para desenvolvimento web moderno.",
+    "msg.proof.tootipe-ts": "TypeScript, uma extensão do JavaScript, proporciona tipagem estática e recursos de orientação a objetos para desenvolvimento web seguro e escalável, sendo transpilado para JavaScript para garantir compatibilidade com navegadores.",
+    "msg.proof.tootipe-angular": "Angular, um framework da Google, usa TypeScript para criar interfaces web dinâmicas e escaláveis, adotando uma arquitetura modular baseada em componentes.",
+    "msg.proof.tootipe-jira": "Jira, da Atlassian, é uma ferramenta líder para gestão ágil de projetos, fornecendo recursos abrangentes para rastreamento de tarefas e colaboração eficaz em equipes de desenvolvimento.",
+    "msg.proof.tootipe-confluence": "Confluence, da Atlassian, é uma plataforma colaborativa que simplifica a criação e compartilhamento de documentos, promovendo a colaboração eficiente em equipes e projetos.",
+    "msg.proof.tootipe-bootstrap": "Bootstrap é um framework front-end que facilita o desenvolvimento web responsivo, oferecendo estilos e componentes pré-construídos para criar interfaces de forma rápida e consistente.",
+    "msg.proof.tootipe-git": "Git é um sistema de controle de versão distribuído usado para rastrear alterações no código, facilitando a colaboração e o gerenciamento eficiente de versões em projetos de software.",
+    "msg.proof.tootipe-git-hub": "GitHub é uma plataforma baseada em Git que simplifica o compartilhamento e a colaboração em projetos de desenvolvimento de software, oferecendo recursos como controle de versão e revisão de código.",
+    
+
+    "msg.my-projcet.app": "Apps que atuei",
+    "msg.my-projcet.project": "Projetos",
+
+    "msg.what-app.message": "Olá! Tudo bem?",
+    "msg.what-app.number": "+55 11 996526874"
   }
 }

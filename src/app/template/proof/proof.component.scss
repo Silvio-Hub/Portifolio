@@ -56,31 +56,32 @@
     .card-colection {
         margin-top: 5rem;
 
-        #cards1 {
-            margin-top: 2rem;
-        }
+        // #cards1 {
+        //     margin-top: 2rem;
+        // }
         .tec-contact {
             margin-top: 1rem;
             color: #ccc;
         }
         .cards {
             display: flex;
-            overflow: hidden;
-            justify-content: flex-start;
+            // overflow: hidden;
+            justify-content: space-between;
             // border: 1px solid #9400ff;
-            padding: 0 0 2rem;
+            // padding: 0 0 2rem;
             width: 84%;
+            flex-wrap: wrap;
     
             .card {
-                width: 20vw;
+                cursor: pointer;
+                width: 25vh;
                 border: 1px solid #9400ff;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                // height: 50px;
-                height: 5vh;
+                height: 2.8rem;
                 border-radius: 5px;
-                margin-right: 3rem;
+                margin-top: 2rem;
                 background: #000;
                 transition: border-color 0.5s ease;
                 p {
@@ -99,10 +100,19 @@
                     color: #fff;
                     background: rgba(0, 0, 0, 0.947);
                 }
-            }
-            #card1 {
-                margin: 0 !important;
+                .tooltip {
+                    position: absolute;
+                    background: #333;
+                    color: #fff;
+                    margin-left: 30rem;
+                    padding: 1rem;
+                    height: 220px;
+                    width: 200px;
+                    border-radius: 5px;
+                    border: 1px solid;
+                }
             }
         }
+        
     }
 }

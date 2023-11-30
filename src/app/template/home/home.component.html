@@ -3,26 +3,25 @@
     <div class="describe">
       <div *ngIf="!knowMoreCliked">
         <div class="describe-hello">
-          <p>
-            {{ 'msg.home.name' | translate }}
+          <p>{{ 'msg.home.name' | translate }}</p>
+        </div>
+        <div>
+          <p class="describe-name">{{ "msg.home.my-name" | translate }}</p>
+        </div>
+        <div>
+          <p class="describe-im">{{ "msg.home.i-am" | translate }} 
+            <span class="describe-dev">{{ "msg.home.dev" | translate }}</span> {{ "msg.home.front-end" | translate }}
           </p>
         </div>
-
-        <div>
-          <p class="describe-name">Silvio Celso</p>
-        </div>
-        <div>
-          <p class="describe-im">Eu sou um <span class="describe-dev">Desenvolvedor</span> Front-end.</p>
-        </div>
         <div class="describe-currently">
-          <p class="">Atualmente trabalhando como desenvolvedor front-end com a tecnologia</p>
+          <p class="">{{ "msg.home.working" | translate }}</p>
         </div>
         <div class="describe-ntt">
-          <p class="">angular na empresa <span class="describe-dev">NTT DATA europe & latam</span></p>
+          <p class="">{{ "msg.home.company" | translate }} <span class="describe-dev">{{ "msg.home.company-name" | translate }}</span></p>
         </div>
       </div>
 
-      <div class="know-more" *ngIf="knowMoreCliked">
+      <!-- <div class="know-more" *ngIf="knowMoreCliked">
         <p>DESENVOLVEDOR FRONT-END (PLENO)</p>
         <p>- Responsável pela análise e desenvolvimento de sistema em Angular;</p>
         <p>- Colaborar com equipes interfuncionais para definir, criar e entregar recursos web em Angular (12+).</p>
@@ -37,34 +36,49 @@
 
       <div class="describe-button" (click)="knowMore()">
         <a>{{ textoBotao }}</a>
+      </div> -->
+      <div class="social-media">
+        <div class="social-media-icon">
+          <a href="https://github.com/Silvio-Hub" target="_blank">
+            <img src="../../../assets/icon/gitHub.png" alt="">
+          </a>
+          <a href="https://www.linkedin.com/in/silvio-celso-ti/" target="_blank">
+            <img src="../../../assets/icon/linkedin.png" alt="">
+          </a>
+          <a (click)="openWhatsApp()">
+            <img src="../../../assets/icon/whats.png" alt="">
+          </a>
+        </div>
       </div>
     </div>
+
     <div class="image" *ngIf="!knowMoreCliked">
-      <img src="../../../assets/my-img.png" alt="">
+      <img src="../../../assets/img/my-img.png" alt="">
     </div>
     <div class="image" *ngIf="knowMoreCliked">
-      <img src="../../../assets/note.png" alt="">
+      <img src="../../../assets/img/note.png" alt="">
     </div>
   </div>
+
   <div class="grid-2 grid-template-columns-2">
     <div class="card1">
       <div class="hover-content">
-        <h2>Objetivo</h2>
+        <h2>{{ "msg.home.objective" | translate }}</h2>
         <p>
-          Busco aprimorar minhas habilidades em desenvolvimento front-end, especializando-me em frameworks modernos para criar experiências de usuário inovadoras.
+          {{ "msg.home.objective-description" | translate }}
         </p>
       </div>
     </div>
     <div class="card2">
       <div class="hover-content">
-        <h2>Aspiração</h2>
-        <p>Minha aspiração é garantir que cada projeto em que eu esteja envolvido não apenas atenda aos requisitos, mas também se destaque pela qualidade, usabilidade e experiência do usuário</p>
+        <h2>{{ "msg.home.aspiration" | translate }}</h2>
+        <p>{{ "msg.home.aspiration-description" | translate }}</p>
       </div>
     </div>
     <div class="card3">
       <div class="hover-content">
-        <h2>Filosofia</h2>
-        <p>Acredito na importância da simplicidade e legibilidade no código. Cada linha de código deve ser clara e compreensível, não apenas para mim, mas para toda a equipe.</p>
+        <h2>{{ "msg.home.philosophy" | translate }}</h2>
+        <p>{{ "msg.home.philosophy-description" | translate }}</p>
       </div>
     </div>
   </div>

@@ -25,7 +25,9 @@
         width: 84%;
 
         .card {
-            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             width: 28%;
             border: 1px solid #9400ff;
             padding: 1.5rem;
@@ -34,7 +36,7 @@
             color: #ccc;
             transition: border-color 0.5s ease;
 
-            img {
+            img, video {
                 height: 25vh;
                 width: 100%;
                 border-radius: 8px;
@@ -51,18 +53,45 @@
                 padding: 1rem;
                 p {
                     margin-top: 1rem;
+                    font-size: 16px;
+                    line-height: 1.5;
                 }
 
                 .tecno {
                     font-size: 14px;
-                    margin-bottom: 2rem;
                 }
             }
+
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1.5rem;
+                a {
+                    border-radius: 5px;
+                    padding: 0.5rem 2rem;
+                    border: 1px solid #9400ff;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+
+                  .hover-content {
+                    transition: height 0.50s ease;
+                  }
+              
+                  &:hover {
+                    background: #9400ff;
+                    transition: all 0.5s ease-in-out;
+                  }
+                }
+            }
+            
             &:hover {
                 border-color: rgb(245, 170, 233);
                 color: #fff;
                 background: rgba(0, 0, 0, 0.947);
             }
+
         }
     }
 }
