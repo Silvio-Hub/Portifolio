@@ -59,6 +59,11 @@ header {
       a:hover:after {
         width: 100%;
       }
+      li:last-child a.disabled {
+        pointer-events: none;
+        color: gray;
+        cursor: not-allowed;
+      }
     }
   }
 }
